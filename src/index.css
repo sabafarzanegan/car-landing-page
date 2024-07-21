@@ -7,3 +7,9 @@
     -webkit-text-stroke: 2px white;
   }
 }
+
+@layer components {
+  .glowing-sahdow {
+    @apply shadow-[0px_0px_40px_10px_#d2e6ff,inset_0px_0px_40px_10px_#d2e6ff];
+  }
+}
